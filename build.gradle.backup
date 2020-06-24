@@ -1,0 +1,34 @@
+buildscript {
+	repositories {
+	    maven {
+	      url "https://plugins.gradle.org/m2/"
+	    }
+	}
+    dependencies {  
+		//classpath "gradle.plugin.com.palantir.graal:gradle-graal:0.7.1-2-gf4abf43"
+		classpath "gradle.plugin.com.palantir.graal:gradle-graal:0.6.0"
+	} 
+}  
+allprojects{
+
+}
+subprojects{ 
+    group GROUP_ID
+    version LIBRARY_VERSION
+    apply plugin: 'java'  
+    apply plugin: 'maven' 
+    apply plugin: "com.palantir.graal"
+    sourceCompatibility = SOURCE_VERSION
+    graal {
+        javaVersion '11'
+        mainClass 'cn.zhg.test.graalvm.MainApplication' 
+        outputName project.name
+        windowsVsVarsPath "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\Build\\vcvarsx86_amd64.bat"
+    } 
+    dependencies{ 
+        testImplementation 'junit:junit:4.12' 
+    } 
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }   
+}

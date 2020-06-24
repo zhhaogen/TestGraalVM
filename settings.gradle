@@ -1,0 +1,8 @@
+File[] fs=rootProject.projectDir.listFiles();
+for(File f:fs)
+{
+    if(new File(f,"build.gradle").exists())
+    {
+        include(f.getName());
+    }
+}

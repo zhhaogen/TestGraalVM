@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration strict="true">
+	<Appenders>
+		<!-- 自定义输出配置,Console元素对应org.apache.logging.log4j.core.appender.ConsoleAppender -->
+		<!-- 简写,元素标签对应@Plugin#name -->
+		<Console name="console" target="SYSTEM_OUT">
+		<!-- 参考http://logging.apache.org/log4j/2.x/manual/layouts.html#PatternLayout -->
+			<PatternLayout
+				pattern="%m%ex%n %l%n" />
+		</Console>
+		<Console name="color_console"  > 
+			<PatternLayout
+				pattern="%highlight{%d [%t] %-5level: %msg%n%throwable}" />
+		</Console>
+		<!-- 必须strict为true,type对应@Plugin#name而非类名 -->
+		<Appender name="stdout" type="Console">
+			<Layout type="PatternLayout"
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Appender>
+		<File name="file"  fileName="logs/test.log" append="false">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %m%ex%n %l%n" /> 
+		</File>
+	</Appenders>
+	<Loggers>
+		<!-- 配置局部 -->
+		<!-- additivity为false,不重复输出 -->
+		<Logger name="cn.zhg.test.graalvm" level="debug" additivity="false">
+			<AppenderRef ref="console" />
+			<AppenderRef ref="file" />
+		</Logger>
+		<!-- 配置全局 -->
+		<Root level="info">
+			<AppenderRef ref="stdout" />
+		</Root> 
+	</Loggers>
+</Configuration>

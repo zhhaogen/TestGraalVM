@@ -1,0 +1,16 @@
+[
+	{
+		"name": "cn.zhg.test.graalvm.model.User",
+		"allPublicFields": true,
+		"allPublicConstructors": true,
+		"allPublicMethods" : true
+	},
+	{
+		"name": "com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+		"allPublicConstructors": true
+	},
+	{
+		"name": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+		"allPublicConstructors": true
+	}
+]

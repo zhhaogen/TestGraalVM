@@ -1,0 +1,65 @@
+[
+	{
+		"name": "org.apache.log4j.Logger"
+	},
+	{
+		"name": "org.apache.log4j.Category"
+	},
+	{
+		"name": "org.apache.log4j.CategoryKey"
+	},
+	{
+		"name": "java.lang.Thread",
+		"methods": [
+			{
+				"name": "getContextClassLoader",
+				"parameterTypes": []
+			}
+		]
+	},
+	{
+		"name": "org.apache.log4j.helpers.Loader"
+	},
+	{
+		"name": "org.apache.log4j.Appender"
+	},
+	{
+		"name": "org.apache.log4j.ConsoleAppender",
+		"allPublicFields": true,
+		"allPublicConstructors": true,
+		"allPublicMethods" : true
+	},
+	{
+		"name": "org.apache.log4j.FileAppender",
+		"allPublicFields": true,
+		"allPublicConstructors": true,
+		"allPublicMethods" : true
+	},
+	{
+		"name": "org.apache.log4j.Layout"
+	},
+	{
+		"name": "org.apache.log4j.spi.OptionHandler"
+	},
+	{
+		"name": "java.lang.String"
+	},
+	{
+		"name": "org.apache.log4j.Priority"
+	},
+	{
+		"name": "org.apache.log4j.spi.ErrorHandler"
+	},
+	{
+		"name": "java.lang.Throwable"
+	},
+	{
+		"name": "org.apache.log4j.PatternLayout",
+		"allPublicFields": true,
+		"allPublicConstructors": true,
+		"allPublicMethods" : true
+	},
+	{
+		"name": "org.apache.log4j.spi.OptionHandler"
+	}
+]

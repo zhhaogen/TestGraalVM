@@ -1,0 +1,10 @@
+{
+  "resources":[
+  	{"pattern":"^.*\\.txt$"},
+  	{"pattern":"^.*\\.properties$"},
+  	{"pattern":"^.*\\.xml$"},
+  	{"pattern":"^META-INF/.*"},
+  	{"pattern":"^.*\\.xsd$"},
+  	{"pattern":"^.*\\.dtd$"}
+  ]
+}

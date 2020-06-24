@@ -1,0 +1,49 @@
+buildscript {
+	repositories {
+	    maven {
+	      url "https://plugins.gradle.org/m2/"
+	    }
+	}
+    dependencies {  
+		classpath "gradle.plugin.org.mikeneck:graalvm-native-image-plugin:0.5.0"
+	} 
+}  
+allprojects{
+
+}
+subprojects{ 
+    group GROUP_ID
+    version LIBRARY_VERSION
+    apply plugin: 'java'  
+    apply plugin: 'maven' 
+    apply plugin: "org.mikeneck.graalvm-native-image"
+    sourceCompatibility = SOURCE_VERSION
+    nativeImage {
+        graalVmHome =System.getenv("GRAALVM_HOME")
+        mainClass = 'cn.zhg.test.graalvm.MainApplication' 
+        executableName =project.name
+        arguments(
+                "-H:+ReportExceptionStackTraces",
+                "-H:+ReportUnsupportedElementsAtRuntime"
+            )
+    } 
+    dependencies{ 
+        testImplementation 'junit:junit:4.12' 
+    } 
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    } 
+    task setVsEnvironment {
+        description = '设置vs工具命令执行环境'
+        group='graalvm'
+        doLast{
+            System.out.println("执行环境变量设置");
+            exec{ 
+                executable='cmd'
+                args('/k','"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\Build\\vcvarsx86_amd64.bat"')
+            };
+        }
+    } 
+    //tasks.getByName("nativeImage").dependsOn  setVsEnvironment 
+    tasks.getByName("nativeImage").dependsOn   tasks.getByName("clean") 
+}

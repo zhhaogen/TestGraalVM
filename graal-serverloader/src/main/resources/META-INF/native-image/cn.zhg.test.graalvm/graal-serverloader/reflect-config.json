@@ -1,0 +1,8 @@
+[
+{
+  "name":"cn.zhg.test.graalvm.server.UserServer",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+}
+]

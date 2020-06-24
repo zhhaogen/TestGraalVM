@@ -1,0 +1,1112 @@
+[
+	{
+		"name": "org.apache.logging.log4j.message.DefaultFlowMessageFactory",
+		"allPublicConstructors": true
+	},
+	{
+		"name": "org.apache.logging.log4j.message.ParameterizedMessageFactory",
+		"allPublicConstructors": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.impl.Log4jContextFactory",
+		"allPublicConstructors": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.util.ExecutorServices",
+		"allPublicConstructors": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.JndiLookup",
+		"allPublicConstructors": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.JmxRuntimeInputArgumentsLookup",
+		"allPublicConstructors": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.LoggerConfig",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.DirectWriteRolloverStrategy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.Rfc5424Layout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UuidConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.IfNot",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.mom.jeromq.JeroMqAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.ThrowablePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.YamlLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.script.ScriptFile",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.FullLocationPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.NoOpTriggeringPolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.ConsoleAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rewrite.PropertiesRewritePolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.IfFileName",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.OutputStreamAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.MessageLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.mom.kafka.KafkaAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.async.JCToolsBlockingQueueFactory",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DoubleConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.RegexReplacementConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Cyan",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.WriterAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.routing.RoutingAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteArrayConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.ThreadIdPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.net.SocketOptions",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.ThreadContextMapFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.EndOfBatchPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.IfAny",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.LoggerFields",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.ScriptCondition",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.StructuredDataLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.properties.PropertiesConfigurationFactory",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.JavaLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.FileAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Red",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.util.KeyValuePair",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.ScriptPatternSelector",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.ScriptsPlugin",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.RegexFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.SystemPropertiesLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.CountingNoOpAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UrlConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.PropertiesPlugin",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.async.AsyncLoggerConfig",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Green",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.RootThrowablePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.FailoversPlugin",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.ProcessIdPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.NdcPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.async.LinkedTransferQueueFactory",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.RollingFileAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.routing.Routes",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.JmxRuntimeInputArgumentsLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.yaml.YamlConfigurationFactory",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.LoggerConfig$RootLogger",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.SocketAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.LevelRangeFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$IntegerConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Yellow",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.OnStartupTriggeringPolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.NullAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.ThresholdFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.db.jdbc.JdbcAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.script.ScriptRef",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.CsvParameterLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$White",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$StringConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rewrite.MapRewritePolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.AsyncAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.async.DisruptorBlockingQueueFactory",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Magenta",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharsetConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.net.MulticastDnsAdvertiser",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.RelativeTimePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.MdcPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.ClassNamePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.MapLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.FileDatePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.LoggerPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.ScriptAppenderSelector",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.SyslogLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FileConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.SyslogAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.DeleteAction",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.FailoverAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.ThreadNamePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.MapFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rewrite.RewriteAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.MarkerSimpleNamePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.SerializedLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.ContextMapLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FloatConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.MaxLengthConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.EnvironmentLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.nosql.NoSqlAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UriConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.routing.IdlePurgePolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.AppenderRef",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.EncodingPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.MemoryMappedFileAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.IfAll",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.LoggerFqcnPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.CronTriggeringPolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.LevelPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.MarkerFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.async.ArrayBlockingQueueFactory",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.ResourceBundleLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Blue",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.HtmlLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CronExpressionConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.EqualsReplacementConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.MarkerPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.db.ColumnMapping",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.CustomLevels",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.SequenceNumberPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.FileLocationPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.PatternMatch",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.NoMarkerFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.JsonLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.TimeFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.SmtpAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.DynamicThresholdFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.XmlLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.EqualsIgnoreCaseReplacementConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.MainMapLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.PosixViewAttributeAction",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.MethodLocationPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.IntegerPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.ThreadPriorityPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.VariablesNotEmptyReplacementConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.MarkerLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.JndiLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.ExtendedThrowablePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.MapPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.LoggersPlugin",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DurationConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.StyleConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ClassConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.db.jdbc.DriverManagerConnectionSource",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.AppendersPlugin",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.db.jdbc.DataSourceConnectionSource",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigDecimalConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.PathSortByModificationTime",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.mom.JmsAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LevelConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LongConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rewrite.LoggerNameLevelRewritePolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.HighlightConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.StructuredDataFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.json.JsonConfigurationFactory",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.RandomAccessFileAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.BurstFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharacterConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.CompositeFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.net.ssl.SslConfiguration",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigIntegerConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.Property",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.DatePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.MessagePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.RegexReplacement",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.GelfLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ShortConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PathConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.routing.Route",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.HttpWatcher",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BooleanConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$InetAddressConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.NanoTimePatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.HttpAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.CustomLevelConfig",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharArrayConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.script.Script",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.net.SocketPerformancePreferences",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.xml.XmlConfigurationFactory",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.net.SocketAddress",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.LineLocationPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.DateLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.DefaultAdvertiser",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.lookup.Log4jLookup",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Black",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.CsvLogEventLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.ScriptFilter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.PatternLayout",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.MarkerPatternSelector",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.action.IfLastModified",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$SecurityProviderConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.AppenderSet",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.pattern.UuidPatternConverter",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.layout.PatternLayout$Builder",
+		"allPublicConstructors": true,
+		"allPublicMethods": true,
+		"allDeclaredFields": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender$Builder",
+		"allPublicConstructors": true,
+		"allPublicMethods": true,
+		"allDeclaredFields": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.AbstractAppender$Builder",
+		"allPublicConstructors": true,
+		"allPublicMethods": true,
+		"allDeclaredFields": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.filter.AbstractFilterable$Builder",
+		"allPublicConstructors": true,
+		"allPublicMethods": true,
+		"allDeclaredFields": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.ConsoleAppender$Builder",
+		"allPublicConstructors": true,
+		"allPublicMethods": true,
+		"allDeclaredFields": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.appender.FileAppender$Builder",
+		"allPublicConstructors": true,
+		"allPublicMethods": true,
+		"allDeclaredFields": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.visitors.PluginBuilderAttributeVisitor",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.visitors.PluginElementVisitor",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.visitors.PluginConfigurationVisitor",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.visitors.PluginBuilderAttributeVisitor",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.visitors.PluginAttributeVisitor",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.apache.logging.log4j.core.config.plugins.validation.validators.RequiredValidator",
+		"allPublicConstructors": true,
+		"allPublicMethods": true
+	}
+]

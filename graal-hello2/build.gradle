@@ -1,0 +1,8 @@
+nativeImage { 
+    arguments(
+            "--no-fallback"
+        )
+}
+dependencies{ 
+   implementation 'cn.zhg.testweb:common-model:1.0.1.0-nodependency' 
+ }  
